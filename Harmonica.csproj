@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Rohan\Desktop\Updater\Harmonica.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{50C0A0DA-20B5-4ADB-B31E-D6B5195557EF}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>NgrokRightRoomServer</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.1.1.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.IdentityModel.Abstractions, Version=6.26.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.IdentityModel.Abstractions.6.26.0\lib\net472\Microsoft.IdentityModel.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Logging, Version=6.26.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.IdentityModel.Logging.6.26.0\lib\net472\Microsoft.IdentityModel.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens, Version=6.26.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.IdentityModel.Tokens.6.26.0\lib\net472\Microsoft.IdentityModel.Tokens.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>lib\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.IdentityModel.Tokens.Jwt">
+      <HintPath>lib\System.IdentityModel.Tokens.Jwt.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.4.7.1\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=4.0.5.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Text.Encodings.Web.4.7.2\lib\net461\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Text.Json.4.7.2\lib\net461\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="websocket-sharp">
+      <HintPath>lib\websocket-sharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PrivateImplementationDetails.cs" />
+    <Compile Include="UpdateChecker.cs" />
+    <Compile Include="Start\Program.cs" />
+    <Compile Include="Servers\AccountServer.cs" />
+    <Compile Include="Servers\APIServer2.cs" />
+    <Compile Include="Servers\AuthServer.cs" />
+    <Compile Include="Servers\CdnServer.cs" />
+    <Compile Include="Servers\ChatServer.cs" />
+    <Compile Include="Servers\ClubsServer.cs" />
+    <Compile Include="Servers\CommerceServer.cs" />
+    <Compile Include="Servers\ImageServer.cs" />
+    <Compile Include="Servers\LeaderboardServer.cs" />
+    <Compile Include="Servers\LinkServer.cs" />
+    <Compile Include="Servers\MatchServer.cs" />
+    <Compile Include="Servers\NameServer.cs" />
+    <Compile Include="Servers\RoomCommentServer.cs" />
+    <Compile Include="Servers\RoomServer.cs" />
+    <Compile Include="Servers\StorageServer.cs" />
+    <Compile Include="Servers\WebSocketServer.cs" />
+    <Compile Include="Servers\Oculus\OculusGraphServer.cs" />
+    <Compile Include="Security\ClientChecker.cs" />
+    <Compile Include="Security\Patching\Patcher.cs" />
+    <Compile Include="RR2017Server\LocalSaveConfig.cs" />
+    <Compile Include="RecNet\Account.cs" />
+    <Compile Include="RecNet\AccountCache.cs" />
+    <Compile Include="RecNet\Accounts.cs" />
+    <Compile Include="RecNet\Announcements.cs" />
+    <Compile Include="RecNet\Avatar.cs" />
+    <Compile Include="RecNet\CDN_LoadingScreenData.cs" />
+    <Compile Include="RecNet\Cheering.cs" />
+    <Compile Include="RecNet\Clothing.cs" />
+    <Compile Include="RecNet\CloudRegionCode.cs" />
+    <Compile Include="RecNet\Commerce.cs" />
+    <Compile Include="RecNet\CommunityBoard.cs" />
+    <Compile Include="RecNet\Consumables.cs" />
+    <Compile Include="RecNet\DeviceClass.cs" />
+    <Compile Include="RecNet\Equipment.cs" />
+    <Compile Include="RecNet\Events.cs" />
+    <Compile Include="RecNet\GameRewards.cs" />
+    <Compile Include="RecNet\GenericRecNetResponse.cs" />
+    <Compile Include="RecNet\GiftDrops.cs" />
+    <Compile Include="RecNet\Gifts.cs" />
+    <Compile Include="RecNet\Images.cs" />
+    <Compile Include="RecNet\IncentivizedReferrals.cs" />
+    <Compile Include="RecNet\Inventions.cs" />
+    <Compile Include="RecNet\Login.cs" />
+    <Compile Include="RecNet\Matchmaking.cs" />
+    <Compile Include="RecNet\Messages.cs" />
+    <Compile Include="RecNet\ModerationBlockDetail.cs" />
+    <Compile Include="RecNet\Objectives.cs" />
+    <Compile Include="RecNet\OutfitItems.cs" />
+    <Compile Include="RecNet\Player.cs" />
+    <Compile Include="RecNet\PlayerEvents.cs" />
+    <Compile Include="RecNet\PlayerModeration.cs" />
+    <Compile Include="RecNet\PlayerPresence.cs" />
+    <Compile Include="RecNet\PlayerProgression.cs" />
+    <Compile Include="RecNet\PlayerReputation.cs" />
+    <Compile Include="RecNet\Players.cs" />
+    <Compile Include="RecNet\PlayerStatusVisibility.cs" />
+    <Compile Include="RecNet\PlayerType.cs" />
+    <Compile Include="RecNet\QuickPlay.cs" />
+    <Compile Include="RecNet\RecNetConfig.cs" />
+    <Compile Include="RecNet\RecNetRooms.cs" />
+    <Compile Include="RecNet\Relationships.cs" />
+    <Compile Include="RecNet\ReportCategory.cs" />
+    <Compile Include="RecNet\Room.cs" />
+    <Compile Include="RecNet\RoomConsumables.cs" />
+    <Compile Include="RecNet\RoomCurrencies.cs" />
+    <Compile Include="RecNet\RoomInstance.cs" />
+    <Compile Include="RecNet\Rooms.cs" />
+    <Compile Include="RecNet\RoomSceneLocations.cs" />
+    <Compile Include="RecNet\Sanitize.cs" />
+    <Compile Include="RecNet\Settings.cs" />
+    <Compile Include="RecNet\Storefront.cs" />
+    <Compile Include="RecNet\TestCaseManagement.cs" />
+    <Compile Include="RecNet\UserGifts.cs" />
+    <Compile Include="RecNet\VRMovementMode.cs" />
+    <Compile Include="RecNet\WeeklyChallenge.cs" />
+    <Compile Include="RecNet\Wishlist.cs" />
+    <Compile Include="RecNet\Core.cs" />
+    <Compile Include="RecNet\IncentivizedItems.cs" />
+    <Compile Include="RecNet\MultiServer\PlatformLogin.cs" />
+    <Compile Include="RecNet\Handler\Logger.cs" />
+    <Compile Include="RecNet\Handler\RecNetHandler.cs" />
+    <Compile Include="RecNet\Handler\Service.cs" />
+    <Compile Include="RecNet\Handler\SaveData\SaveData.cs" />
+    <Compile Include="RecNet\DataStructures\MultiplayerPlayer.cs" />
+    <Compile Include="RecNet\DataStructures\PlayerMap.cs" />
+    <Compile Include="OldAPIs\Activities.cs" />
+    <Compile Include="OldAPIs\Amplitude.cs" />
+    <Compile Include="OldAPIs\APIServer1.cs" />
+    <Compile Include="OldAPIs\AutoMicMutingConfig.cs" />
+    <Compile Include="OldAPIs\Avatar.cs" />
+    <Compile Include="OldAPIs\AvatarGift.cs" />
+    <Compile Include="OldAPIs\AvatarItem.cs" />
+    <Compile Include="OldAPIs\Challenge.cs" />
+    <Compile Include="OldAPIs\Checklist.cs" />
+    <Compile Include="OldAPIs\ChecklistEntry.cs" />
+    <Compile Include="OldAPIs\Class1.cs" />
+    <Compile Include="OldAPIs\Config2.cs" />
+    <Compile Include="OldAPIs\ConfigTableEntry.cs" />
+    <Compile Include="OldAPIs\Consumables.cs" />
+    <Compile Include="OldAPIs\Equipment.cs" />
+    <Compile Include="OldAPIs\Events.cs" />
+    <Compile Include="OldAPIs\GameSessions.cs" />
+    <Compile Include="OldAPIs\Generic.cs" />
+    <Compile Include="OldAPIs\LevelProgressionEntry.cs" />
+    <Compile Include="OldAPIs\loginCachedFunc.cs" />
+    <Compile Include="OldAPIs\MatchmakingConfigParams.cs" />
+    <Compile Include="OldAPIs\mPlatformID.cs" />
+    <Compile Include="OldAPIs\mPlayerReputation.cs" />
+    <Compile Include="OldAPIs\Notification.cs" />
+    <Compile Include="OldAPIs\Objective.cs" />
+    <Compile Include="OldAPIs\Objective2018.cs" />
+    <Compile Include="OldAPIs\Objective2018Entry.cs" />
+    <Compile Include="OldAPIs\Objective2018Group.cs" />
+    <Compile Include="OldAPIs\OtherPlayerEvent.cs" />
+    <Compile Include="OldAPIs\photonConfig.cs" />
+    <Compile Include="OldAPIs\PlatformLogin.cs" />
+    <Compile Include="OldAPIs\PlatformLogin2019Profile.cs" />
+    <Compile Include="OldAPIs\playerEvent.cs" />
+    <Compile Include="OldAPIs\playerEventResponse.cs" />
+    <Compile Include="OldAPIs\PlayerEvents.cs" />
+    <Compile Include="OldAPIs\PlayerReporting.cs" />
+    <Compile Include="OldAPIs\Players.cs" />
+    <Compile Include="OldAPIs\Profile.cs" />
+    <Compile Include="OldAPIs\Setting.cs" />
+    <Compile Include="OldAPIs\Settings.cs" />
+    <Compile Include="OldAPIs\StoreFronts.cs" />
+    <Compile Include="NewAPIs\CreateAccount2021.cs" />
+    <Compile Include="Configs\AvatarSettings.cs" />
+    <Compile Include="Configs\Config.cs" />
+    <Compile Include="Configs\UserConfig.cs" />
+    <Compile Include="Client\ClientHandle.cs" />
+    <Compile Include="Client\ClientSecurity.cs" />
+    <Compile Include="Client\ServerRequest.cs" />
+    <Compile Include="AC\CPP\E\AddressAttribute.cs" />
+    <Compile Include="AC\CPP\E\AttributeAttribute.cs" />
+    <Compile Include="AC\CPP\E\FieldOffsetAttribute.cs" />
+    <Compile Include="AC\CPP\E\MetadataOffsetAttribute.cs" />
+    <Compile Include="AC\CPP\E\TokenAttribute.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
