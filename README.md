@@ -3,5 +3,6 @@ In 2021, a group was made by the name Minorites, with the members being Nexus, R
 
 In late 2021 post september it was then subsequently patched by the Rec Room developer team.
 
-In 2022 there was another attempt at unpatching by Minorities but it did not succeed. 
+In 2022 there was another attempt at unpatching by Minorities but it did not succeed, but another attempt was made by Mathie which worked but also got patched.
+
 This is the only offical source of Harmonica.
