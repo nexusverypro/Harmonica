@@ -1,5 +1,5 @@
 # Overview
-In 2021, a group was made by the name Minorites, with the members being Nexus, Rohan, Gribben, Icy, and RecRoom2016 (tags wont be stated for security reasons)
+In 2021, a group was made by the name Minorites, with the members being Nexus, Rohan, Gribben, Icy, Rockpikmin888, and RecRoom2016 (tags wont be stated for security reasons)
 
 In late 2021 post september it was then subsequently patched by the Rec Room developer team.
 
